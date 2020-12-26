@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Dosis', cursive;
+}
+
+h1 {
+    font-family: 'Bungee'cursive;
+}
+
+h2,
+h3 {
+    font-family: 'Yanone Kaffeesatz'cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* *** Header Başlangıç *** */
+header#AnaBaslik {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: url(../resimler/headerresim2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div#BaslikKapsayici {
+    width: 1346px;
+    height: 750px;
+    position: relative;
+    margin: auto;
+}
+
+div#IcerikBaslikKapsayici {
+    width: 1346px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+div#UstBaslik {
+    width: 1346px;
+    height: 50px;
+    position: relative;
+}
+
+ul#ulUstSol {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+ul#ulUstSol li {
+    display: inline-block;
+    line-height: 50px;
+    border-right: 1px solid #25C89B;
+    padding: 0 10px;
+
+}
+
+ul#ulUstSol li:first-child {
+    padding-left: 0;
+}
+
+ul#ulUstSol li:last-child {
+    border-right: 0;
+}
+
+ul#ulUstSol li a {
+    text-decoration: none;
+    color: #25C89B;
+}
+
+ul#ulUstSol li a:hover {
+    color: #000000;
+}
+
+div#SagUst {
+    height: 50px;
+    position: relative;
+    float: right;
+}
+
+div.UstIletisimLogo {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+div.UstIletisimMetni {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+/* ***Nav Başlangıç*** */
+nav {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background: rgb(37, 200, 155, 0.5);
+    top: 50px;
+}
+
+div#NavKapsayici {
+    width: 1346px;
+    height: 80px;
+    position: relative;
+    margin: auto;
+}
+
+div#NavLogo {
+    font-family: 'Bungee'cursive;
+    color: #1A1D54;
+    font-size: 30px;
+    line-height: 80px;
+    display: inline;
+    float: left;
+}
+
+ul#ulNavSag {
+    list-style-type: none;
+    display: inline-block;
+   
+}
+
+ul#ulNavSag li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+ul#ulNavSag li a {
+    color: #1A1D54;
+    text-decoration: none;
+
+}
+
+ul#ulNavSag li a:hover {
+    color: #666666;
+}
+
+div#BaslikMetin {
+    margin-top: 300px;
+    color: #1A1D54;
+}
+
+div#BaslikMetin h1 {
+    line-height: 80px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px #666666;
+}
+
+div#BaslikMetin h2 {
+    line-height: 60px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px #666666;
+}
+
+div#BaslikMetin p {
+    line-height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    background: rgba(37, 200, 155, 0.5);
+    padding-right: 20px;
+    text-shadow: 1px 1px 1px #666666;
+}
+
+/* *** SECTİON BAŞLANGICI *** */
+section.SinirliSec {
+    width: 1346px;
+    height: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+section.SinirliSec h1,
+section.SinirliSec h2 {
+    text-align: center;
+}
+
+section.SinirliSec img {
+    width: 663px;
+    margin-top: 50px;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+section.SinirliSec article {
+    width: 663px;
+    float: right;
+    margin-top: 50px;
+}
+
+section.SinirliSec article div.IkonKutusu {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+section.SinirliSec article p {
+    margin-top: 10px;
+}
+
+/* *** İkinci Section *** */
+section.SinirsizSec div.SinirsizSecKapsayici {
+    width: 1346px;
+    height: 650px;
+    position: relative;
+    margin: auto;
+}
+
+section.SinirsizSec div.SinirsizSecKapsayici div.SinirsizSecSol {
+    width: 673px;
+    height: 650px;
+    position: relative;
+    float: left;
+    background: rgba(37, 200, 155, 0.5);
+    color: #1A1D54;
+    text-align: center;
+    text-shadow: 1px 1px 1px #666666;
+}
+
+section.SinirsizSec div.SinirsizSecKapsayici div.SinirsizSecSol h1 {
+    font-size: 40px;
+    line-height: 80px;
+    margin-top: 130px;
+}
+
+section.SinirsizSec div.SinirsizSecKapsayici div.SinirsizSecSol h2 {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+section.SinirsizSec div.SinirsizSecKapsayici div.SinirsizSecSol p {
+    width: 500px;
+    font-size: 20px;
+    line-height: 32px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+section.IcerikKapsayici {
+    width: 1346px;
+    position: relative;
+    margin: 50px auto;
+
+}
+
+/* *** Hakkımızda Başlangıç *** */
+
+section.IcerikKapsayici h1,
+section.IcerikKapsayici h2 {
+    text-align: center;
+}
+
+section.IcerikKapsayici p {
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+section.IcerikKapsayici div.YoneticiKutusu {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    border-bottom: 2px solid #000000;
+}
+
+/* *** İletişim BAŞLANGIÇ *** */
+section.IcerikKapsayici div.IletisimBolumleri {
+    width: 640px;
+    position: relative;
+    float: left;
+    margin-left: 22px;
+}
+section.IcerikKapsayici div.IletisimBolumleri h2{
+    text-align: left;
+    margin-bottom: 22px;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.input{
+    width: 310px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #25C89B;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.inputLeft{
+    float: left;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.inputRight{
+    float:right;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.inputdTarihi{
+    float: left;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.inputMail{
+    float:right;
+}
+
+section.IcerikKapsayici div.IletisimBolumleri textarea{
+   width: 640px; 
+   height: 320px;
+   position: relative;
+   border: 1px solid #25C89B;
+   margin-top: 20px;
+   box-sizing: border-box;
+   padding: 10px;
+   resize: none;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.submit{
+    width: 310px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #25C89B;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: transparent;
+    margin-left: 165px;
+    transition: all .2s ease;
+}
+section.IcerikKapsayici div.IletisimBolumleri input.submit:hover{
+    cursor: pointer;
+    background: #1A1D54;
+    color: #ffffff;
+    border: 1px solid #25C89B;
+}
+
+
+
+/* *** FOOTER BAŞLANGIÇ *** */
+footer {
+    width: 100%;
+    position: relative;
+    background: #25C89B;
+}
+
+footer div#FooterKapsayici {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    padding: 100px 0;
+}
+
+footer div#FooterKapsayici div.FooterKutusu {
+    width: 400px;
+    position: relative;
+    float: left;
+    text-align: center;
+    color: #1A1D54;
+    font-family: 'Bangree'cursive;
+}
+
+footer div#FooterKapsayici div.FooterKutusu h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin-top: 75px;
+}
+
+footer div#FooterKapsayici div.FooterKutusu h2 {
+    font-size: 30px;
+    line-height: 60px;
+    border-bottom: 2px solid #1A1D54;
+    width: 350px;
+    margin: auto;
+}
+
+footer div#FooterKapsayici div.FooterKutusu p {
+    text-align: left;
+    line-height: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+footer div#FooterKapsayici div.FooterKutusu input {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+footer div#copyright {
+    width: 100%;
+    background: #1A1D54;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px 0px;
+    text-align: center;
+}
